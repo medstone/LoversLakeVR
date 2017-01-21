@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: c748849abee6fec45923fe0567279e92
+timeCreated: 1485032286
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: acoustic_guitar
+    100002: body3
+    100004: Cylinder001
+    100006: Cylinder002
+    100008: Cylinder003
+    100010: Cylinder004
+    100012: Cylinder005
+    100014: Cylinder006
+    100016: Cylinder007
+    100018: Cylinder008
+    100020: Cylinder009
+    100022: Cylinder010
+    100024: Cylinder011
+    100026: drums
+    100028: electric_base
+    100030: group3
+    100032: head
+    100034: //RootNode
+    100036: keyboard
+    100038: L_foot
+    100040: L_hand
+    100042: pCube14
+    100044: pCube15
+    100046: pCube16
+    100048: piano
+    100050: polySurface1
+    100052: polySurface1 1
+    100054: polySurface2
+    100056: polySurface2 1
+    100058: polySurface3
+    100060: polySurface3 1
+    100062: polySurface4
+    100064: polySurface4 1
+    100066: R_foot
+    100068: R_hand
+    400000: acoustic_guitar
+    400002: body3
+    400004: Cylinder001
+    400006: Cylinder002
+    400008: Cylinder003
+    400010: Cylinder004
+    400012: Cylinder005
+    400014: Cylinder006
+    400016: Cylinder007
+    400018: Cylinder008
+    400020: Cylinder009
+    400022: Cylinder010
+    400024: Cylinder011
+    400026: drums
+    400028: electric_base
+    400030: group3
+    400032: head
+    400034: //RootNode
+    400036: keyboard
+    400038: L_foot
+    400040: L_hand
+    400042: pCube14
+    400044: pCube15
+    400046: pCube16
+    400048: piano
+    400050: polySurface1
+    400052: polySurface1 1
+    400054: polySurface2
+    400056: polySurface2 1
+    400058: polySurface3
+    400060: polySurface3 1
+    400062: polySurface4
+    400064: polySurface4 1
+    400066: R_foot
+    400068: R_hand
+    2300000: body3
+    2300002: Cylinder001
+    2300004: Cylinder002
+    2300006: Cylinder003
+    2300008: Cylinder004
+    2300010: Cylinder005
+    2300012: Cylinder006
+    2300014: Cylinder007
+    2300016: Cylinder008
+    2300018: Cylinder009
+    2300020: Cylinder010
+    2300022: Cylinder011
+    2300024: head
+    2300026: L_foot
+    2300028: L_hand
+    2300030: pCube14
+    2300032: pCube15
+    2300034: pCube16
+    2300036: piano
+    2300038: polySurface1
+    2300040: polySurface1 1
+    2300042: polySurface2
+    2300044: polySurface2 1
+    2300046: polySurface3
+    2300048: polySurface3 1
+    2300050: polySurface4
+    2300052: polySurface4 1
+    2300054: R_foot
+    2300056: R_hand
+    3300000: body3
+    3300002: Cylinder001
+    3300004: Cylinder002
+    3300006: Cylinder003
+    3300008: Cylinder004
+    3300010: Cylinder005
+    3300012: Cylinder006
+    3300014: Cylinder007
+    3300016: Cylinder008
+    3300018: Cylinder009
+    3300020: Cylinder010
+    3300022: Cylinder011
+    3300024: head
+    3300026: L_foot
+    3300028: L_hand
+    3300030: pCube14
+    3300032: pCube15
+    3300034: pCube16
+    3300036: piano
+    3300038: polySurface1
+    3300040: polySurface1 1
+    3300042: polySurface2
+    3300044: polySurface2 1
+    3300046: polySurface3
+    3300048: polySurface3 1
+    3300050: polySurface4
+    3300052: polySurface4 1
+    3300054: R_foot
+    3300056: R_hand
+    4300000: body3
+    4300002: head
+    4300004: R_hand
+    4300006: L_hand
+    4300008: L_foot
+    4300010: R_foot
+    4300012: polySurface1
+    4300014: polySurface2
+    4300016: polySurface3
+    4300018: polySurface4
+    4300020: polySurface1
+    4300022: polySurface2
+    4300024: polySurface3
+    4300026: polySurface4
+    4300028: pCube14
+    4300030: pCube15
+    4300032: pCube16
+    4300034: piano
+    4300036: Cylinder001
+    4300038: Cylinder002
+    4300040: Cylinder003
+    4300042: Cylinder004
+    4300044: Cylinder005
+    4300046: Cylinder006
+    4300048: Cylinder007
+    4300050: Cylinder008
+    4300052: Cylinder009
+    4300054: Cylinder010
+    4300056: Cylinder011
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
