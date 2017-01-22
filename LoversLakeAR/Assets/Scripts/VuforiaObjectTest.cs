@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using Vuforia;
 
@@ -71,7 +71,7 @@ public class VuforiaObjectTest : MonoBehaviour, ITrackableEventHandler {
 
     public void OnTrackingFound()
     {
-        // TODO increase count in dictionary in MainManager
+        MainManager.Instance.increaseInstrument(_type);
 
         Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
         Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
@@ -100,7 +100,7 @@ public class VuforiaObjectTest : MonoBehaviour, ITrackableEventHandler {
 
     public void OnTrackingLost()
     {
-        // TODO decrease count in dictionary in MainManager
+        MainManager.Instance.decreaseInstrument(_type);
 
         Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
         Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
