@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="metalSingerPaint" size="1.000000 1.000000" />
+    <ImageTarget name="metalGuitarPainting" size="1.000000 1.000000" />
+    <ImageTarget name="kazooPainting" size="1.000000 1.000000" />
+    <ImageTarget name="guitarPaint" size="1.000000 1.000000" />
+    <ImageTarget name="drumTag" size="1.000000 1.000000" />
+    <ImageTarget name="boatPaint" size="1.000000 1.000000" />
+    <ImageTarget name="bassPaint" size="1.000000 1.000000" />
     <ImageTarget name="pianopaint" size="1.000000 1.000000" />
     <ImageTarget name="AprilTag1" size="1.000000 1.184783" />
     <ImageTarget name="Apriltag8" size="1.000000 1.250000" />
