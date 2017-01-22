@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,11 +21,28 @@ public class MainManager : MonoBehaviour {
         }
     }
 
-    Dictionary<VuforiaObjectTest.InstrumentType, int> instrumentCounts =
+    private Dictionary<VuforiaObjectTest.InstrumentType, int> instrumentCounts =
         new Dictionary<VuforiaObjectTest.InstrumentType, int>();
 
-	// Use this for initialization
-	void Start () {
+    public void increaseInstrument(VuforiaObjectTest.InstrumentType type)
+    {
+        if (instrumentCounts.ContainsKey(type)) {
+            instrumentCounts[type]++;
+        }
+        else
+        {
+            // this is the first time an instrument of this type is encountered
+            instrumentCounts[type] = 1;
+        }
+    }    
+
+    public void decreaseInstrument(VuforiaObjectTest.InstrumentType type)
+    {
+        instrumentCounts[type]--;
+    }
+
+    // Use this for initialization
+    void Start () {
         instance = this;
 	}
 	
@@ -43,7 +60,8 @@ public class MainManager : MonoBehaviour {
                     )
                 {
 
-                    // TODO change boat animation to fighting maybe?
+                    /* TODO change boat animation to fighting maybe?
+                    otherwise change boat animation to weird faces */
 
                 }
 
