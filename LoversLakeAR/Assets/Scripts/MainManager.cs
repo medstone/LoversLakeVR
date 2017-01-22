@@ -38,7 +38,10 @@ public class MainManager : MonoBehaviour {
 
     public void decreaseInstrument(VuforiaObjectTest.InstrumentType type)
     {
-        instrumentCounts[type]--;
+        if (instrumentCounts.ContainsKey(type))
+        {
+            instrumentCounts[type]--;
+        }
     }
 
     // Use this for initialization
