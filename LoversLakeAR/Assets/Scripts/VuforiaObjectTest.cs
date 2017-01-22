@@ -59,13 +59,16 @@ public class VuforiaObjectTest : MonoBehaviour, ITrackableEventHandler {
 	}
 
     public void OnTrackableStateChanged(TrackableBehaviour.Status previous, TrackableBehaviour.Status next){
-        if(next == TrackableBehaviour.Status.DETECTED || next == TrackableBehaviour.Status.TRACKED)
+        if (!MainManager.Instance.Won)
         {
-            OnTrackingFound();
-        }
-        else
-        {
-            OnTrackingLost();
+            if (next == TrackableBehaviour.Status.DETECTED || next == TrackableBehaviour.Status.TRACKED)
+            {
+                OnTrackingFound();
+            }
+            else
+            {
+                OnTrackingLost();
+            }
         }
     }
 

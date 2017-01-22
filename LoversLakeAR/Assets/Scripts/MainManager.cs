@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class MainManager : MonoBehaviour {
 
-    bool _won = false;
+    private bool _won = false;
+    public bool Won
+    {
+        get
+        {
+            return _won;
+        }
+    }
 
     public GameObject Boat;
     public Animator boatAnim;
@@ -87,7 +94,11 @@ public class MainManager : MonoBehaviour {
 
                         // TODO change boat animation to win scene
 
-                        // TODO decouple band member models from the targets
+                        GameObject[] winObjects = GameObject.FindGameObjectsWithTag("winobject");
+                        foreach (GameObject obj in winObjects)
+                        {
+                            obj.transform.SetParent(Boat.transform);
+                        }
                     }
                     else
                     {
