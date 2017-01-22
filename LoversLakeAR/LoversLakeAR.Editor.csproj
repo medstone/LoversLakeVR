@@ -55,9 +55,6 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -99,9 +96,6 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.VR">
       <HintPath>Library\UnityAssemblies\UnityEditor.VR.dll</HintPath>
@@ -158,6 +152,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsReflectiveUnity5.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\VertexLitVertexColors.shader" />
     <None Include="Assets\StreamingAssets\QCAR\LoversLakeTargets.xml" />
     <None Include="Assets\VacuumShaders\Mesh Materializer\Example Scenes\Files\Other\Materials\Unlit_Shadows.shader" />
     <None Include="Assets\VacuumShaders\Mesh Materializer\Scripts\ReadMe.txt" />
