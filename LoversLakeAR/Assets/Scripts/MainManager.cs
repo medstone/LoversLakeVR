@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MainManager : MonoBehaviour {
 
-    private bool _won = false;
+    public bool _won = false;
     public bool Won
     {
         get
@@ -94,11 +94,7 @@ public class MainManager : MonoBehaviour {
 
                         // TODO change boat animation to win scene
 
-                        GameObject[] winObjects = GameObject.FindGameObjectsWithTag("winobject");
-                        foreach (GameObject obj in winObjects)
-                        {
-                            obj.transform.SetParent(Boat.transform);
-                        }
+                        
                     }
                     else
                     {
@@ -113,6 +109,14 @@ public class MainManager : MonoBehaviour {
                     // TODO change boat animation to weird faces
                 }
             }
+            if (_won)
+            {
+                GameObject[] winObjects = GameObject.FindGameObjectsWithTag("winobject");
+                foreach (GameObject obj in winObjects)
+                {
+                    obj.transform.SetParent(Boat.transform);
+                }
+            } 
         }
 
 	}

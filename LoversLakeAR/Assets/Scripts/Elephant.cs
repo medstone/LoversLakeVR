@@ -9,7 +9,7 @@ public class Elephant : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -17,6 +17,11 @@ public class Elephant : MonoBehaviour {
 		if (MainManager.Instance.Won)
         {
             StartCoroutine(fadeInSound());
+            //gameObject.GetComponent<AudioSource>().enabled = true;
+        }
+        else
+        {
+            //gameObject.GetComponent<AudioSource>().enabled = false;
         }
 	}
 

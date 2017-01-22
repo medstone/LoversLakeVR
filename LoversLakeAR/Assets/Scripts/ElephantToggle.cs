@@ -8,6 +8,7 @@ public class ElephantToggle : StateMachineBehaviour {
 
 	 // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
 	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
+        MainManager.Instance._won = true;
         GameObject.Find(ELEPHANT_NAME).SetActive(true);
 	}
 
