@@ -6,6 +6,9 @@ public class MainManager : MonoBehaviour {
 
     bool _won = false;
 
+    public GameObject Boat;
+    public Animator boatAnim;
+
     /** The size of the band playing the romantic music */
     private const int GOOD_BAND_SIZE = 3;
 
@@ -47,11 +50,17 @@ public class MainManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         instance = this;
-	}
+        boatAnim = Boat.GetComponent<Animator>();
+        instrumentCounts[VuforiaObjectTest.InstrumentType.GOOD] = 0;
+        instrumentCounts[VuforiaObjectTest.InstrumentType.METAL] = 0;
+        instrumentCounts[VuforiaObjectTest.InstrumentType.WEIRD] = 0;
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
 
+        boatAnim.SetInteger("GoodMusic", instrumentCounts[VuforiaObjectTest.InstrumentType.GOOD] - instrumentCounts[VuforiaObjectTest.InstrumentType.METAL] - instrumentCounts[VuforiaObjectTest.InstrumentType.WEIRD] - 3);
         if (!_won) {
             // check if boat is in view
             if (instrumentCounts[VuforiaObjectTest.InstrumentType.BOAT] >= 1)
