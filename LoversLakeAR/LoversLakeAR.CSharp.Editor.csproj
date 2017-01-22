@@ -112,9 +112,6 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -153,6 +150,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Quantum Theory\Polyworld\Editor\QT_CombineMeshes.cs" />
+    <Compile Include="Assets\Quantum Theory\Polyworld\Editor\QT_ConvertMesh.cs" />
+    <Compile Include="Assets\Quantum Theory\Polyworld\Editor\QT_ModifyColorEditor.cs" />
+    <Compile Include="Assets\Quantum Theory\Polyworld\Editor\QT_PolyWorldTerrainEditor.cs" />
+    <Compile Include="Assets\Quantum Theory\Polyworld\Editor\QT_SurfaceNoiseEditor.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
@@ -161,7 +163,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_DefaultBrown.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_DefaultBrownRoof.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_LighterWood.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_LighterWoodRoof.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_Nemesis.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_NemesisRoof.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_SkyTemple.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_SkyTempleRoof.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\QT_Cubemaps.cginc" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsAlphaUnity5.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsDiffuseTexUnity5.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsDiffuseTexUnity5_Linear.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsEmissiveUnity5.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsEmissiveUnity5_Linear.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsReflectiveAlphaUnity5.shader" />
     <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsReflectiveUnity5.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsReflectiveUnity5_Linear.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsUnity5.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsUnity5_Linear.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsWindowUnity5_Linear.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexLitIBL.cginc" />
     <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\VertexLitVertexColors.shader" />
     <None Include="Assets\StreamingAssets\QCAR\LoversLakeTargets.xml" />
     <None Include="Assets\VacuumShaders\Mesh Materializer\Example Scenes\Files\Other\Materials\Unlit_Shadows.shader" />

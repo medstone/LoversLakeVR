@@ -87,6 +87,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Quantum Theory\Polyworld\Scripts\QT_InteractContainer.cs" />
+    <Compile Include="Assets\Quantum Theory\Polyworld\Scripts\QT_LightFlicker.cs" />
+    <Compile Include="Assets\Quantum Theory\Polyworld\Scripts\QT_ModifyColor.cs" />
+    <Compile Include="Assets\Quantum Theory\Polyworld\Scripts\QT_PolyWorldTerrain.cs" />
+    <Compile Include="Assets\Quantum Theory\Polyworld\Scripts\QT_SimpleRotate.cs" />
+    <Compile Include="Assets\Quantum Theory\Polyworld\Scripts\QT_SurfaceNoise.cs" />
+    <Compile Include="Assets\Quantum Theory\Polyworld\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+    <Compile Include="Assets\Quantum Theory\Polyworld\Scripts\Utility Scripts\QT_MeshCombineUtility.cs" />
     <Compile Include="Assets\Scripts\MainManager.cs" />
     <Compile Include="Assets\Scripts\VuforiaObjectTest.cs" />
     <Compile Include="Assets\VacuumShaders\Mesh Materializer\Example Scenes\Files\Scripts\Runtime.cs" />
@@ -131,7 +139,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_DefaultBrown.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_DefaultBrownRoof.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_LighterWood.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_LighterWoodRoof.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_Nemesis.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_NemesisRoof.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_SkyTemple.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Ancient East\Color Palettes\Architecture\Palette_SkyTempleRoof.txt" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\QT_Cubemaps.cginc" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsAlphaUnity5.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsDiffuseTexUnity5.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsDiffuseTexUnity5_Linear.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsEmissiveUnity5.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsEmissiveUnity5_Linear.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsReflectiveAlphaUnity5.shader" />
     <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsReflectiveUnity5.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsReflectiveUnity5_Linear.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsUnity5.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsUnity5_Linear.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsWindowUnity5_Linear.shader" />
+    <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexLitIBL.cginc" />
     <None Include="Assets\Quantum Theory\Polyworld\Shaders\VertexColors\VertexLitVertexColors.shader" />
     <None Include="Assets\StreamingAssets\QCAR\LoversLakeTargets.xml" />
     <None Include="Assets\VacuumShaders\Mesh Materializer\Example Scenes\Files\Other\Materials\Unlit_Shadows.shader" />
