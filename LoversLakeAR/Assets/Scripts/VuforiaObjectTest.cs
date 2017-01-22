@@ -90,7 +90,7 @@ public class VuforiaObjectTest : MonoBehaviour, ITrackableEventHandler {
         }
         foreach (AudioSource component in audioComponents)
         {
-            if (_fades[component] != null) StopCoroutine(_fades[component]);
+            if (_fades.ContainsKey(component) && _fades[component] != null) StopCoroutine(_fades[component]);
             _fades[component] = fadeInSound(component, STANDARD_FADE);
             StartCoroutine(_fades[component]);
             //component.volume = 1;
